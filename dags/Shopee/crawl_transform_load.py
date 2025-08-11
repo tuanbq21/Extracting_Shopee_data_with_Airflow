@@ -12,8 +12,8 @@ DB_CONFIG = {
     "host": "postgres",
     "port": 5432,
     "dbname": "mydb",
-    "user": "post",
-    "password": "mypassword"
+    "user": "postgre",
+    "password": "123456"
 }
 
 def crawl_data(**kwargs):
@@ -84,7 +84,7 @@ with DAG(
     "etl_pipeline_xcom_db",
     default_args=default_args,
     description="ETL pipeline: crawl -> transform -> load (Postgres)",
-    schedule_interval=timedelta(days=1),
+    schedule=timedelta(days=1),
     start_date=datetime(2025, 8, 10),
     catchup=False,
     tags=["crawl", "etl", "transform", "load", "postgres"],
