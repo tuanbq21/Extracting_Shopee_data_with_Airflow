@@ -1,0 +1,15 @@
+{"timestamp":"2025-07-13T04:53:41.378475","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T04:53:41.379266","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T04:53:41.597841Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:53:41.598348Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:53:41.598990Z","level":"info","event":"Current task name:print_date","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:53:41.599273Z","level":"info","event":"Dag name:tutorial","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:53:41.599529Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:53:41.599757Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:53:41.599973Z","level":"info","event":"Task operator:<Task(BashOperator): print_date>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:53:41.393523","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-13T04:53:41.395251","level":"info","event":"Running command: ['/usr/bin/bash', '-c', 'date']","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-13T04:53:41.409627","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-13T04:53:41.416142","level":"info","event":"Sun Jul 13 04:53:41 UTC 2025","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-13T04:53:41.416369","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-13T04:53:41.417048","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01980221-adfa-759d-a830-aeeece093434'), task_id='print_date', dag_id='tutorial', run_id='scheduled__2025-07-13T04:53:30.603679+00:00', try_number=1, map_index=-1, hostname='96c8eae196b9', context_carrier={}, task=<Task(BashOperator): print_date>, bundle_instance=LocalDagBundle(name=example_dags), max_tries=1, start_date=datetime.datetime(2025, 7, 13, 4, 53, 39, 18997, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}

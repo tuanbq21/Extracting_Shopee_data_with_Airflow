@@ -1,0 +1,6 @@
+{"timestamp":"2025-07-15T03:51:39.240099","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-15T03:51:39.240550","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test_pg_conn.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-15T03:51:39.314840","level":"info","event":"Executing: \n            CREATE TABLE IF NOT EXISTS users (\n                id SERIAL PRIMARY KEY,\n                name TEXT NOT NULL\n            );\n        ","logger":"airflow.task.operators.airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator"}
+{"timestamp":"2025-07-15T03:51:39.336675","level":"info","event":"Connection Retrieved 'local_postgres'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-15T03:51:39.346752","level":"info","event":"Connection Retrieved 'local_postgres'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-15T03:51:39.382780","level":"info","event":"Running statement: \n            CREATE TABLE IF NOT EXISTS users (\n                id SERIAL PRIMARY KEY,\n                name TEXT NOT NULL\n            );\n        , parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}

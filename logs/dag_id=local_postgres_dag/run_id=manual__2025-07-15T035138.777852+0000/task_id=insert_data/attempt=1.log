@@ -1,0 +1,7 @@
+{"timestamp":"2025-07-15T03:51:41.733897","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-15T03:51:41.734604","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test_pg_conn.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-15T03:51:41.757620","level":"info","event":"Executing: INSERT INTO users (name) VALUES ('Hải đẹp trai');","logger":"airflow.task.operators.airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator"}
+{"timestamp":"2025-07-15T03:51:41.774031","level":"info","event":"Connection Retrieved 'local_postgres'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-15T03:51:41.781204","level":"info","event":"Connection Retrieved 'local_postgres'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-15T03:51:41.818785","level":"info","event":"Running statement: INSERT INTO users (name) VALUES ('Hải đẹp trai');, parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-07-15T03:51:41.822039","level":"info","event":"Rows affected: 1","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
