@@ -1,0 +1,4 @@
+{"timestamp":"2025-08-11T09:26:26.967696","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-11T09:26:26.968216","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-11T09:26:27.240104Z","level":"info","event":"Saved raw JSON to Airflow-For-Work/data/raw/shopee_ratings_20250811092627.json","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-11T09:26:27.240917","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

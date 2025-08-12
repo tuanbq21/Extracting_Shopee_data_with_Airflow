@@ -1,0 +1,14 @@
+{"timestamp":"2025-08-12T03:13:54.354093","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-12T03:14:24.920370","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-12T03:14:55.547477","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-12T03:15:25.875548","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-12T03:15:58.379180","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-12T03:16:30.840592","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-12T03:17:03.277998","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-12T03:17:36.737402","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-12T03:18:09.217383","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-12T03:18:41.767388","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-12T03:19:14.243469","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-12T03:19:47.767955","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-12T03:20:20.271135","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-12T03:20:52.871070","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}

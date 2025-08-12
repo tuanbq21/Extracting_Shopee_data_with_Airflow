@@ -1,0 +1,5 @@
+{"timestamp":"2025-08-12T03:14:03.571634","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-12T03:14:03.613793","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/crawl_shopee_rating_multi_task.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-12T03:14:04.448452","level":"warning","event":"No XCom value found; defaulting to None.","key":"ratings_data","dag_id":"crawl_shopee_ratings_split_tasks","task_id":"fetch_data_from_shopee","run_id":"scheduled__2025-08-12T00:00:00+00:00","map_index":-1,"logger":"task"}
+{"timestamp":"2025-08-12T03:14:04.453721","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-12T03:14:04.464598Z","level":"info","event":"No data to insert.","chan":"stdout","logger":"task"}
