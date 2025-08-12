@@ -25,7 +25,4 @@
 
 **Note**: You can expand this by adding documentation for any dependencies (e.g. Airflow setup), instructions to run specific DAGs, or sample outputs in the `data/` folder.
 
----
 
-Nếu bạn muốn mình viết chi tiết thêm phần cách chạy (usage) hoặc hướng dẫn triển khai cụ thể (ví dụ: làm sao để chạy DAGs, tích hợp với Airflow, định dạng dữ liệu…), cứ nói nhé!
-::contentReference[oaicite:1]{index=1}
