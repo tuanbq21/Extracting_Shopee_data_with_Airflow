@@ -1,26 +1,6 @@
 import requests
 import json
 
-# url = "https://shopee.vn/api/v2/item/get_ratings"
-
-# params = {
-#     "flag": "1",
-#     "limit": "10",
-#     "request_source": "3",
-#     "exclude_filter": "1",
-#     "fold_filter": "0",
-#     "relevant_reviews": "false",
-#     "itemid": "29911154536",
-#     "shopid": "487028617",
-#     "filter": "0",
-#     "inherit_only_view": "false",
-#     "fe_toggle": "[2,3]",
-#     "preferred_item_item_id": "29911154536",
-#     "preferred_item_shop_id": "487028617",
-#     "preferred_item_include_type": "1",
-#     "offset": "0"
-# }
-
 
 url = "https://shopee.vn/api/v2/item/get_ratings?filter=0&flag=1&limit=2&offset=0&type=0&exclude_filter=1&filter_size=0&fold_filter=0&relevant_reviews=false&request_source=2&tag_filter=&variation_filters=&fe_toggle=%5B2%2C3%5D&shopid=487028617&itemid=29911154536&preferred_item_item_id=29911154536&preferred_item_shop_id=487028617&preferred_item_include_type=1"
 headers = {
