@@ -1,18 +1,14 @@
 from abc import ABC, abstractmethod
 
-class ETLInterface:
+class ETLInterface(ABC):
     @abstractmethod
-    def run_crawl(self):
+    def crawl(self):
        pass
 
     @abstractmethod
-    def run_transform(self):
+    def transform(self):
         pass 
     
     @abstractmethod
-    def run_load(self):
-        pass
-
-    @abstractmethod
-    def run_all(self):
+    def load(self):
         pass
