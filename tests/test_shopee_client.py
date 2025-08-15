@@ -42,3 +42,5 @@ def test_fetch_ratings_fail(mock_get):
     assert status_code == 404
     assert "error" in data
     assert data["error"] == "Not Found"
+
+
