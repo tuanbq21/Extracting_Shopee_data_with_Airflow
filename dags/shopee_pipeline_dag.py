@@ -83,7 +83,6 @@ def transform_data():
     print(f"Saved processed CSV to {csv_path}")
 
 def load_data():
-    import psycopg2
 
     # Lấy file CSV mới nhất trong thư mục processed
     files = sorted([f for f in os.listdir(PROCESSED_DIR) if f.endswith(".csv")])
