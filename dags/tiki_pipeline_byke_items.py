@@ -114,7 +114,7 @@ def crawl_data():
     hmkRepo.crawl(Path_Folder.raw_folder_path)
 
 def transform_data():
-    hmkRepo.transform(Path_Folder.processed_folder_path, json_key, item_tag)
+    hmkRepo.transform(Path_Folder.processed_folder_path, Path_Folder.raw_folder_path, json_key, item_tag)
 
 def load_data():
     hmkRepo.load_hmk_items(Path_Folder.processed_folder_path, command_load, item_tag)

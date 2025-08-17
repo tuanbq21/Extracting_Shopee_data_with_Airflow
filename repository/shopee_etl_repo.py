@@ -37,13 +37,13 @@ class ShopeeETL(ETLInterface):
     With item_tag(<item_0>, <field_1>, <field_2>,...) and json_key(<json_key>)
     processed_data_path: The path to save the processed data file.
     """
-    def transform(self, processed_data_path, json_key, item_tag):
+    def transform(self, processed_data_path, raw_data_path, json_key, item_tag):
         os.makedirs(processed_data_path, exist_ok=True)
-        files = sorted([f for f in os.listdir(processed_data_path) if f.endswith(".json")])
+        files = sorted([f for f in os.listdir(raw_data_path) if f.endswith(".json")])
         if not files:
             raise Exception("No raw files found")
 
-        latest_file = os.path.join(processed_data_path, files[-1])
+        latest_file = os.path.join(raw_data_path, files[-1])
 
         with open(latest_file, "r", encoding="utf-8") as f:
             data = json.load(f)
