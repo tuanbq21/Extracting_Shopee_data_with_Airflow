@@ -1,0 +1,4 @@
+{"timestamp":"2025-08-17T10:10:41.077160","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-17T10:10:41.077824","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/tiki_pipeline_byke_items.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-17T10:10:41.442923Z","level":"info","event":"Saved raw JSON to /opt/airflow/data/raw/raw_data_20250817_101041.json","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-17T10:10:41.443828","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

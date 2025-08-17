@@ -1,2 +1,0 @@
-{"timestamp":"2025-08-17T08:03:41.479751","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
-{"timestamp":"2025-08-17T08:03:41.480269","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/shopee_pipeline_hmk_items.py","logger":"airflow.models.dagbag.DagBag"}

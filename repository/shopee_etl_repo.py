@@ -3,7 +3,7 @@ from interface.etl_interface import ETLInterface
 from datetime import datetime
 # from dags.anonymous_path import Path_Folder
 import sys, os, json, csv
-
+from psycopg2.extras import execute_values
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 class ShopeeETL(ETLInterface):
@@ -37,6 +37,32 @@ class ShopeeETL(ETLInterface):
     With item_tag(<item_0>, <field_1>, <field_2>,...) and json_key(<json_key>)
     processed_data_path: The path to save the processed data file.
     """
+    # def transform(self, processed_data_path, raw_data_path, json_key, item_tag):
+    #     os.makedirs(processed_data_path, exist_ok=True)
+    #     files = sorted([f for f in os.listdir(raw_data_path) if f.endswith(".json")])
+    #     if not files:
+    #         raise Exception("No raw files found")
+
+    #     latest_file = os.path.join(raw_data_path, files[-1])
+
+    #     with open(latest_file, "r", encoding="utf-8") as f:
+    #         data = json.load(f)
+
+    #     obj = data.get("data", {}).get(json_key, [])
+
+    #     csv_path = os.path.join(
+    #         processed_data_path,
+    #         f"{json_key}_data_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+    #     )
+
+    #     with open(csv_path, mode="w", encoding="utf-8", newline="") as f:
+    #         writer = csv.writer(f)
+    #         writer.writerow(item_tag)
+    #         for r in obj:
+    #             writer.writerow([r.get(item, "") for item in item_tag])
+
+    #     print(f"Saved processed CSV to {csv_path}")
+
     def transform(self, processed_data_path, raw_data_path, json_key, item_tag):
         os.makedirs(processed_data_path, exist_ok=True)
         files = sorted([f for f in os.listdir(raw_data_path) if f.endswith(".json")])
@@ -48,7 +74,10 @@ class ShopeeETL(ETLInterface):
         with open(latest_file, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        obj = data.get("data", {}).get(json_key, [])
+        # Nếu json_key nằm ngay trong root (vd: "data" là list)
+        obj = data.get(json_key, [])
+        if not isinstance(obj, list):
+            raise Exception(f"{json_key} must be a list, but got {type(obj)}")
 
         csv_path = os.path.join(
             processed_data_path,
@@ -59,9 +88,17 @@ class ShopeeETL(ETLInterface):
             writer = csv.writer(f)
             writer.writerow(item_tag)
             for r in obj:
-                writer.writerow([r.get(item, "") for item in item_tag])
+                row = []
+                for item in item_tag:
+                    value = r.get(item, "")
+                    # xử lý đặc biệt cho nested dict (vd: quantity_sold.value)
+                    if isinstance(value, dict) and "value" in value:
+                        value = value["value"]
+                    row.append(value)
+                writer.writerow(row)
 
         print(f"Saved processed CSV to {csv_path}")
+
 
 #   ===================================================================================
 
@@ -90,3 +127,8 @@ class ShopeeETL(ETLInterface):
         self.conn_db_postgres.close()
 
         print(f"Data loaded successfully from {latest_file} to the database.")
+
+
+
+
+
