@@ -1,0 +1,11 @@
+{"timestamp":"2025-08-18T04:52:55.591876","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/crawl_shopee_rating_multi_task.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:53:55.055440","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/crawl_shopee_rating_multi_task.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:54:25.193538","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/crawl_shopee_rating_multi_task.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:54:55.320788","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/crawl_shopee_rating_multi_task.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:55:25.493944","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/crawl_shopee_rating_multi_task.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:55:55.621279","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/crawl_shopee_rating_multi_task.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:56:25.882540","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/crawl_shopee_rating_multi_task.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:56:55.997884","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/crawl_shopee_rating_multi_task.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:57:26.148120","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/crawl_shopee_rating_multi_task.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:57:56.294419","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/crawl_shopee_rating_multi_task.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:58:26.609391","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/crawl_shopee_rating_multi_task.py","logger":"airflow.models.dagbag.DagBag"}

@@ -1,0 +1,11 @@
+{"timestamp":"2025-08-18T04:53:29.255721","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/tutorial_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:54:01.623277","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/tutorial_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:54:31.771983","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/tutorial_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:55:01.887594","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/tutorial_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:55:32.057856","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/tutorial_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:56:02.333001","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/tutorial_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:56:32.443424","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/tutorial_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:57:02.583946","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/tutorial_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:57:32.732929","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/tutorial_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:58:02.988218","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/tutorial_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-18T04:58:33.195713","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Shopee/tutorial_dag.py","logger":"airflow.models.dagbag.DagBag"}
